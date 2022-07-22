@@ -7,7 +7,7 @@ header {
 
 #banner {
   background: lightgreen;
-  color: darkgreen;
+  color: black;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -35,15 +35,16 @@ h2 {
 }
 
 h3 {
-  color: darkgreen;
+  color: green;
 }
 
 p {
-  color: green;
+  color: black;
 }
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 footer {
@@ -51,9 +52,17 @@ footer {
   overflow: auto;
   padding: 0px;
   margin: 0px;
-  gap: 15px
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 aside {
   text-align: center;
+}
+
+#insta {
+  max-width: 10%;
 }
