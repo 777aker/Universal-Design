@@ -6,9 +6,26 @@ header {
 }
 
 #banner {
-  background: rgb(30, 255, 30);
+  background: lightgreen;
+  color: green;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding: 10px;
+}
+
+nav > a {
+  margin: 5px;
+  color: green;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
