@@ -7,16 +7,16 @@ header {
 
 #banner {
   background: lightgreen;
-  color: green;
+  color: darkgreen;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding: 10px;
 }
 
-nav > a {
+a {
   margin: 5px;
-  color: green;
+  color: darkgreen;
 }
 
 img {
@@ -28,4 +28,32 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+h3 {
+  color: darkgreen;
+}
+
+p {
+  color: green;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+  gap: 15px
+}
+
+aside {
+  text-align: center;
 }
