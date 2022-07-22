@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+#banner {
+  background: rgb(30, 255, 30);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 10px;
+}
