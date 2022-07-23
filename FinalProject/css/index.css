@@ -7,10 +7,7 @@ header {
 
 /* TODO:
   click here go to food truck schedule
-  a hover do something
   aria labels so keyboard selects
-  newsletter email text box
-  email at bottom go somewhere?
  */
 
 #banner {
@@ -65,11 +62,17 @@ footer {
   overflow: auto;
   padding: 0px;
   margin: 0px;
+  margin-top: 20px;
   gap: 15px;
   width: 100%;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: lightgreen;
+}
+
+aside {
+  background-color: lightgreen;
 }
 
 strong:hover {
